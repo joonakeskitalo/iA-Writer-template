@@ -1,0 +1,56 @@
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 400;
+  font-style: normal;
+  src: local("IBMPlexSerif");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 400;
+  font-style: italic;
+  src: local("IBMPlexSerif-Italic");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 450;
+  font-style: normal;
+  src: local("IBMPlexSerif-Text");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 450;
+  font-style: italic;
+  src: local("IBMPlexSerif-TextItalic");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 600;
+  font-style: normal;
+  src: local("IBMPlexSerif-Semibold");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 600;
+  font-style: italic;
+  src: local("IBMPlexSerif-SemiboldItalic");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 700;
+  font-style: normal;
+  src: local("IBMPlexSerif-Bold");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  font-weight: 700;
+  font-style: italic;
+  src: local("IBMPlexSerif-BoldItalic");
+}

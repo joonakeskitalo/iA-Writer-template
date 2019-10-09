@@ -1,0 +1,44 @@
+
+html :lang(ja) {
+  font-family: iAWriterFullSpaceJA, iAWriterQuattro, iAWriterHiraginoSans, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(ko) {
+  font-family: iAWriterFullSpaceKR, iAWriterQuattro, iAWriterAppleSDGothicNeo, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hans) {
+  font-family: iAWriterFullSpaceSC, iAWriterQuattro, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hant) {
+  font-family: iAWriterFullSpaceTC, iAWriterQuattro, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hant-HK) {
+  font-family: iAWriterFullSpaceTC, iAWriterQuattro, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html, html :lang(x-default), html :lang(en) {
+  font-family: iAWriterQuattro, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-ja) {
+  font-family: iAWriterQuattro, iAWriterFullSpaceJA, iAWriterHiraginoSans, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-ko) {
+  font-family: iAWriterQuattro, iAWriterFullSpaceKR, iAWriterAppleSDGothicNeo, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hans) {
+  font-family: iAWriterQuattro, iAWriterFullSpaceSC, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hant) {
+  font-family: iAWriterQuattro, iAWriterFullSpaceTC, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hant-HK) {
+  font-family: iAWriterQuattro, iAWriterFullSpaceTC, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterEmphasis, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}

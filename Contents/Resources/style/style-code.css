@@ -1,0 +1,24 @@
+
+html :-webkit-any(code, samp, pre) {
+    font-size: 0.94em;
+}
+
+@supports (font-variation-settings: normal) {
+
+    html :-webkit-any(code, samp, pre) {
+        font-family: 'iAWriterMono', monospace;
+    }
+
+}
+
+@supports not (font-variation-settings: normal) {
+
+    html :-webkit-any(code, samp, pre) {
+        font-family: 'iAWriterMono20', 'iAWriterDuo20', monospace;
+    }
+
+    html.ios :-webkit-any(code, samp, pre) {
+        font-family: 'iAWriterMono5', 'iAWriterDuo5', monospace;
+    }
+
+}

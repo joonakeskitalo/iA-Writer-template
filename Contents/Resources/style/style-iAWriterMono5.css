@@ -1,0 +1,48 @@
+
+@supports not (font-variation-settings: normal) {
+
+  html.ios :lang(ja) {
+    font-family: iAWriterFullSpaceJA, iAWriterMono5, iAWriterHiraginoSans, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(ko) {
+    font-family: iAWriterFullSpaceKR, iAWriterMono5, iAWriterAppleSDGothicNeo, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(zh-Hans) {
+    font-family: iAWriterFullSpaceSC, iAWriterMono5, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(zh-Hant) {
+    font-family: iAWriterFullSpaceTC, iAWriterMono5, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(zh-Hant-HK) {
+    font-family: iAWriterFullSpaceTC, iAWriterMono5, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios, html.ios :lang(x-default), html.ios :lang(en) {
+    font-family: iAWriterMono5, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(x-default-ja) {
+    font-family: iAWriterMono5, iAWriterFullSpaceJA, iAWriterHiraginoSans, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(x-default-ko) {
+    font-family: iAWriterMono5, iAWriterFullSpaceKR, iAWriterAppleSDGothicNeo, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(x-default-zh-Hans) {
+    font-family: iAWriterMono5, iAWriterFullSpaceSC, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(x-default-zh-Hant) {
+    font-family: iAWriterMono5, iAWriterFullSpaceTC, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+  html.ios :lang(x-default-zh-Hant-HK) {
+    font-family: iAWriterMono5, iAWriterFullSpaceTC, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterDuo5, iAWriterEmphasis, monospace;
+  }
+
+}

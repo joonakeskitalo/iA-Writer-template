@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "iAWriterAppleSDGothicNeo";
+  font-weight: 400;
+  font-style: normal;
+  src: local("AppleSDGothicNeo-Regular");
+}
+
+@font-face {
+  font-family: "iAWriterAppleSDGothicNeo";
+  font-weight: 700;
+  font-style: normal;
+  src: local("AppleSDGothicNeo-Bold");
+}

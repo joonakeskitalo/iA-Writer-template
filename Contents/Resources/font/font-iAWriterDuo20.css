@@ -1,0 +1,60 @@
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterDuo-Regular20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 400;
+    font-style: italic;
+    src: local("iAWriterDuo-Italic20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterDuo-Text20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 450;
+    font-style: italic;
+    src: local("iAWriterDuo-TextItalic20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterDuo-Semibold20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 600;
+    font-style: italic;
+    src: local("iAWriterDuo-SemiboldItalic20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterDuo-Bold20");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo20";
+    font-weight: 700;
+    font-style: italic;
+    src: local("iAWriterDuo-BoldItalic20");
+  }
+
+}

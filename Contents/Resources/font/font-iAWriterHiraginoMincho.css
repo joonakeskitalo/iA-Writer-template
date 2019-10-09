@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "iAWriterHiraginoMincho";
+  font-weight: 400;
+  font-style: normal;
+  src: local("HiraMinProN-W3");
+}
+
+@font-face {
+  font-family: "iAWriterHiraginoMincho";
+  font-weight: 700;
+  font-style: normal;
+  src: local("HiraMinProN-W6");
+}

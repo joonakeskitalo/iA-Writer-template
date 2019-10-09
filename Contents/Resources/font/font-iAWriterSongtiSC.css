@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "iAWriterSongtiSC";
+  font-weight: 400;
+  font-style: normal;
+  src: local("STSongti-SC-Regular");
+}
+
+@font-face {
+  font-family: "iAWriterSongtiSC";
+  font-weight: 700;
+  font-style: normal;
+  src: local("STSongti-SC-Bold");
+}

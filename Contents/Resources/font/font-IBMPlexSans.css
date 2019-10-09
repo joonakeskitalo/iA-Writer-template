@@ -1,0 +1,56 @@
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("IBMPlexSans");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 400;
+  font-style: italic;
+  src: local("IBMPlexSans-Italic");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 450;
+  font-style: normal;
+  src: local("IBMPlexSans-Text");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 450;
+  font-style: italic;
+  src: local("IBMPlexSans-TextItalic");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 600;
+  font-style: normal;
+  src: local("IBMPlexSans-Semibold");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 600;
+  font-style: italic;
+  src: local("IBMPlexSans-SemiboldItalic");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("IBMPlexSans-Bold");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-weight: 700;
+  font-style: italic;
+  src: local("IBMPlexSans-BoldItalic");
+}

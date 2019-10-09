@@ -1,0 +1,44 @@
+
+html :lang(ja) {
+  font-family: iAWriterHiraginoMincho, iAWriterEmphasisSpaced, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(ko) {
+  font-family: iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, iAWriterEmphasisSpaced, iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(zh-Hans) {
+  font-family: iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterEmphasis, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(zh-Hant) {
+  font-family: iAWriterSongtiTC, iAWriterSongtiSC, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterEmphasis, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(zh-Hant-HK) {
+  font-family: iAWriterSongtiTC, iAWriterSongtiSC, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterEmphasis, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}
+
+html, html :lang(x-default), html :lang(en) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(x-default-ja) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, iAWriterHiraginoMincho, iAWriterEmphasisSpaced, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(x-default-ko) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, iAWriterEmphasisSpaced, iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(x-default-zh-Hans) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, iAWriterSongtiSC, iAWriterSongtiTC, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(x-default-zh-Hant) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, iAWriterSongtiTC, iAWriterSongtiSC, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}
+
+html :lang(x-default-zh-Hant-HK) {
+  font-family: IBMPlexSerif, iAWriterEmphasis, iAWriterSongtiTC, iAWriterSongtiSC, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterHiraginoMincho, iAWriterNanumMyeongjo, iAWriterAppleSDGothicNeo, 'Palatino', 'Georgia', Times, serif;
+}

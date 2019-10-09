@@ -1,0 +1,43 @@
+
+@supports (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterFullSpaceJA";
+    font-weight: 400 700;
+    font-style: normal;
+    src: local("iA Writer Full Space JA");
+  }
+
+}
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterFullSpaceJA";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterFullSpaceJA-Regular");
+  }
+
+  @font-face {
+    font-family: "iAWriterFullSpaceJA";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterFullSpaceJA-Text");
+  }
+
+  @font-face {
+    font-family: "iAWriterFullSpaceJA";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterFullSpaceJA-Semibold");
+  }
+
+  @font-face {
+    font-family: "iAWriterFullSpaceJA";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterFullSpaceJA-Bold");
+  }
+
+}

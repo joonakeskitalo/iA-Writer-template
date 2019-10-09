@@ -1,0 +1,60 @@
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterMono-Regular5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 400;
+    font-style: italic;
+    src: local("iAWriterMono-Italic5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterMono-Text5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 450;
+    font-style: italic;
+    src: local("iAWriterMono-TextItalic5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterMono-Semibold5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 600;
+    font-style: italic;
+    src: local("iAWriterMono-SemiboldItalic5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterMono-Bold5");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono5";
+    font-weight: 700;
+    font-style: italic;
+    src: local("iAWriterMono-BoldItalic5");
+  }
+
+}

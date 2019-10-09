@@ -1,0 +1,78 @@
+
+@supports (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 400 700;
+    font-style: normal;
+    src: local("iA Writer Quattro");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 400 700;
+    font-style: italic;
+    src: local("iA Writer Quattro");
+  }
+
+}
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterQuattro-Regular");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 400;
+    font-style: italic;
+    src: local("iAWriterQuattro-Italic");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterQuattro-Text");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 450;
+    font-style: italic;
+    src: local("iAWriterQuattro-TextItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterQuattro-Semibold");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 600;
+    font-style: italic;
+    src: local("iAWriterQuattro-SemiboldItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterQuattro-Bold");
+  }
+
+  @font-face {
+    font-family: "iAWriterQuattro";
+    font-weight: 700;
+    font-style: italic;
+    src: local("iAWriterQuattro-BoldItalic");
+  }
+
+}

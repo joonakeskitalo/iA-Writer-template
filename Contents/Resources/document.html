@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" media="all" href="normalize.css">
+    <link rel="stylesheet" media="all" href="font.css">
+    <link rel="stylesheet" media="all" href="style.css">
+    <link rel="stylesheet" media="all" href="override.css">
+    <!-- <link rel="stylesheet" href="style/hljs_styles/atom-one-light.css"> -->
+    <link rel="stylesheet" href="style/hljs_styles/github-gist.css">
+    <script src="highlight.pack.js"></script>
+
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            document.body.addEventListener('ia-writer-change', function(event) {
+                var codeBlocks = document.querySelectorAll('pre code');
+                [].forEach.call(codeBlocks, function(codeBlock) {
+                    hljs.highlightBlock(codeBlock);
+                });
+            });
+        });
+    </script>
+
+</head>
+<body data-document>&nbsp;</body>
+</html>

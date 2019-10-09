@@ -1,0 +1,78 @@
+
+@supports (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 400 700;
+    font-style: normal;
+    src: local("iA Writer Mono");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 400 700;
+    font-style: italic;
+    src: local("iA Writer Mono");
+  }
+
+}
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterMono-Regular");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 400;
+    font-style: italic;
+    src: local("iAWriterMono-Italic");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterMono-Text");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 450;
+    font-style: italic;
+    src: local("iAWriterMono-TextItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterMono-Semibold");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 600;
+    font-style: italic;
+    src: local("iAWriterMono-SemiboldItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterMono-Bold");
+  }
+
+  @font-face {
+    font-family: "iAWriterMono";
+    font-weight: 700;
+    font-style: italic;
+    src: local("iAWriterMono-BoldItalic");
+  }
+
+}

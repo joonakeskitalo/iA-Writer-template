@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: "iAWriterEmphasis";
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+E000-E001;
+  src: local("iAWriterEmphasis-Regular");
+}
+
+@font-face {
+  font-family: "iAWriterEmphasis";
+  font-weight: 450;
+  font-style: normal;
+  unicode-range: U+E000-E001;
+  src: local("iAWriterEmphasis-Text");
+}
+
+@font-face {
+  font-family: "iAWriterEmphasis";
+  font-weight: 600;
+  font-style: normal;
+  unicode-range: U+E000-E001;
+  src: local("iAWriterEmphasis-Semibold");
+}
+
+@font-face {
+  font-family: "iAWriterEmphasis";
+  font-weight: 700;
+  font-style: normal;
+  unicode-range: U+E000-E001;
+  src: local("iAWriterEmphasis-Bold");
+}

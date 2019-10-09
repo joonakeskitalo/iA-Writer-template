@@ -1,0 +1,44 @@
+
+html :lang(ja) {
+  font-family: iAWriterHiraginoSans, iAWriterEmphasisSpaced, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(ko) {
+  font-family: iAWriterAppleSDGothicNeo, iAWriterEmphasisSpaced, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hans) {
+  font-family: iAWriterPingFangSC, iAWriterPingFangTC, iAWriterEmphasis, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hant) {
+  font-family: iAWriterPingFangTC, iAWriterPingFangSC, iAWriterEmphasis, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(zh-Hant-HK) {
+  font-family: iAWriterPingFangHK, iAWriterPingFangSC, iAWriterEmphasis, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html, html :lang(x-default), html :lang(en) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-ja) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterHiraginoSans, iAWriterEmphasisSpaced, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-ko) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterAppleSDGothicNeo, iAWriterEmphasisSpaced, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hans) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterPingFangSC, iAWriterPingFangTC, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hant) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterPingFangTC, iAWriterPingFangSC, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html :lang(x-default-zh-Hant-HK) {
+  font-family: IBMPlexSans, iAWriterEmphasis, iAWriterPingFangHK, iAWriterPingFangSC, iAWriterDuo5, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}

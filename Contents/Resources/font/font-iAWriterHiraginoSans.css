@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "iAWriterHiraginoSans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("HiraginoSans-W3");
+}
+
+@font-face {
+  font-family: "iAWriterHiraginoSans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("HiraginoSans-W6");
+}

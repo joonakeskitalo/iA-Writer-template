@@ -1,0 +1,265 @@
+
+/* Font Size */
+
+@media print {
+    html {
+        --font-size: 12px;
+    }
+}
+
+/* Line Height */
+
+html {
+  --line-height-base: 170.0;
+  --line-height-base-viewport-adjustment: 0;
+}
+
+@media screen {
+  html.content-size-4xs {
+    --line-height-base: 180.0;
+  }
+  html.content-size-3xs {
+    --line-height-base: 179.0;
+  }
+  html.content-size-2xs {
+    --line-height-base: 179.0;
+  }
+  html.content-size-xs {
+    --line-height-base: 178.0;
+  }
+  html.content-size-s {
+    --line-height-base: 177.0;
+  }
+  html.content-size-m {
+    --line-height-base: 176.0;
+  }
+  html.content-size-l {
+    --line-height-base: 175.0;
+  }
+  html.content-size-xl {
+    --line-height-base: 173.0;
+  }
+  html.content-size-2xl {
+    --line-height-base: 169.0;
+  }
+  html.content-size-3xl {
+    --line-height-base: 165.0;
+  }
+  html.content-size-4xl {
+    --line-height-base: 161.0;
+  }
+  html.content-size-5xl {
+    --line-height-base: 157.0;
+  }
+  html.content-size-6xl {
+    --line-height-base: 151.0;
+  }
+  html.content-size-7xl {
+    --line-height-base: 145.0;
+  }
+  html.content-size-8xl {
+    --line-height-base: 139.0;
+  }
+  html.content-size-9xl {
+    --line-height-base: 133.0;
+  }
+  html.content-size-10xl {
+    --line-height-base: 128.0;
+  }
+}
+
+@media print {
+  html {    
+    --line-height-base: 170.0;
+  }
+}
+
+/* Compact */
+@media screen and (max-width: 414px) {
+  html {
+    --line-height-base-viewport-adjustment: -10;
+  }
+}
+
+/* Regular */
+@media screen and (min-width: 415px) and (max-width: 1250px) {
+  html {
+    --line-height-base-viewport-adjustment: 0;
+  }
+}
+
+/* ≥Wide */
+@media screen and (min-width: 1251px) {
+  html {
+    --line-height-base-viewport-adjustment: +10;
+  }
+}
+
+html {
+  --line-height: calc((var(--line-height-base) + var(--line-height-base-viewport-adjustment)) / 100);
+  line-height: var(--line-height);
+}
+
+/* Spacing */
+
+html {
+  --spcg-adjustment: 0;
+}
+html.content-size-4xs {
+  --spcg-adjustment: 22;
+}
+html.content-size-3xs {
+  --spcg-adjustment: 18;
+}
+html.content-size-2xs {
+  --spcg-adjustment: 14;
+}
+html.content-size-xs {
+  --spcg-adjustment: 8;
+}
+html.content-size-s {
+  --spcg-adjustment: 4;
+}
+html.content-size-m {
+  --spcg-adjustment: 2;
+}
+html.content-size-l {
+  --spcg-adjustment: 0;
+}
+html.content-size-xl {
+  --spcg-adjustment: 0;
+}
+html.content-size-2xl {
+  --spcg-adjustment: 0;
+}
+html.content-size-3xl {
+  --spcg-adjustment: -1;
+}
+html.content-size-4xl {
+  --spcg-adjustment: -2;
+}
+html.content-size-5xl {
+  --spcg-adjustment: -3
+}
+html.content-size-6xl {
+  --spcg-adjustment: -4;
+}
+html.content-size-7xl {
+  --spcg-adjustment: -5;
+}
+html.content-size-8xl {
+  --spcg-adjustment: -6;
+}
+html.content-size-9xl {
+  --spcg-adjustment: -7;
+}
+html.content-size-10xl {
+  --spcg-adjustment: -8;
+}
+
+/* Compact */
+@media screen and (min-width: 200px) and (max-width: 414px) {
+  html {
+    --spcg: 10;
+  }
+}
+
+/* Regular */
+@media screen and (min-width: 415px) and (max-width: 1250px) {
+  html {
+    --spcg: 15;
+  }
+}
+
+/* ≥Wide */
+@media screen and (min-width: 1251px) {
+  html {
+    --spcg: 20;
+  }
+}
+
+@media print {
+  html {
+    --spcg: 20;
+  }
+}
+
+html {
+  font-variation-settings: 'SPCG' calc(var(--spcg) + var(--spcg-adjustment));
+}
+
+/* Weight */
+
+html {
+  --wght: 400;
+  --wght-interface-orientation-adjustment: 0;
+  --wght-system-adjustment: 0;
+  --wght-dark-adjustment: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), print {
+  html.ios.interface-orientation-landscape {
+    --wght-interface-orientation-adjustment: -50;
+  }
+  html.mac {
+    --wght-system-adjustment: -35;
+  }
+  html.night-mode {
+    --wght-dark-adjustment: -20;
+  }
+  html.content-size-4xs:lang(x-default)) {
+    --wght: 490;
+  }
+  html.content-size-3xs:lang(x-default)) {
+    --wght: 482;
+  }
+  html.content-size-2xs:lang(x-default)) {
+    --wght: 475;
+  }
+  html.content-size-xs:lang(x-default) {
+    --wght: 470;
+  }
+  html.content-size-s:lang(x-default) {
+    --wght: 465;
+  }
+  html.content-size-m:lang(x-default) {
+    --wght: 460;
+  }
+  html.content-size-l:lang(x-default) {
+    --wght: 455;
+  }
+  html.content-size-xl:lang(x-default) {
+    --wght: 450;
+  }
+  html.content-size-2xl:lang(x-default) {
+    --wght: 445;
+  }
+  html.content-size-3xl:lang(x-default) {
+    --wght: 440;
+  }
+  html.content-size-4xl:lang(x-default) {
+    --wght: 435;
+  }
+  html.content-size-5xl:lang(x-default) {
+    --wght: 430;
+  }
+  html.content-size-6xl:lang(x-default) {
+    --wght: 420;
+  }
+  html.content-size-7xl:lang(x-default) {
+    --wght: 420;
+  }
+  html.content-size-8xl:lang(x-default) {
+    --wght: 420;
+  }
+  html.content-size-9xl:lang(x-default) {
+    --wght: 420;
+  }
+  html.content-size-10xl:lang(x-default) {
+    --wght: 420;
+  }
+}
+
+html {
+  font-weight: calc(var(--wght) + var(--wght-interface-orientation-adjustment) + var(--wght-system-adjustment) + var(--wght-dark-adjustment));
+}

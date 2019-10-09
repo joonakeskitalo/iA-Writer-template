@@ -1,0 +1,20 @@
+
+em {
+    font-synthesis: style;
+}
+
+.emphasis-mark {
+    font-style: normal;
+    font-synthesis: none;
+}
+
+.emphasis-mark em:lang(zh), em.emphasis-mark:lang(zh) {
+    text-emphasis-style: '\E000';
+    text-emphasis-position: under;
+}
+
+.emphasis-mark em:lang(ja), .emphasis-mark em:lang(ko),
+em.emphasis-mark:lang(ja), em.emphasis-mark:lang(ko) {
+    text-emphasis-style: '\E000';
+    text-emphasis-position: over;
+}

@@ -1,0 +1,69 @@
+html {
+  --font-size: 18px;
+}
+
+@media screen {
+  html.content-size-4xs {
+    --font-size: 11px;
+  }
+  html.content-size-3xs {
+    --font-size: 12px;
+  }
+  html.content-size-2xs {
+    --font-size: 13px;
+  }
+  html.content-size-xs {
+    --font-size: 14px;
+  }
+  html.content-size-s {
+    --font-size: 15px;
+  }
+  html.content-size-m {
+    --font-size: 16px;
+  }
+  html.content-size-l {
+    --font-size: 18px;
+  }
+  html.content-size-xl {
+    --font-size: 20px;
+  }
+  html.content-size-2xl {
+    --font-size: 24px;
+  }
+  html.content-size-3xl {
+    --font-size: 28px;
+  }
+  html.content-size-4xl {
+    --font-size: 32px;
+  }
+  html.content-size-5xl {
+    --font-size: 36px;
+  }
+  html.content-size-6xl {
+    --font-size: 42px;
+  }
+  html.content-size-7xl {
+    --font-size: 48px;
+  }
+  html.content-size-8xl {
+    --font-size: 54px;
+  }
+  html.content-size-9xl {
+    --font-size: 60px;
+  }
+  html.content-size-10xl {
+    --font-size: 72px;
+  }
+}
+
+@media print {
+  html {
+    --font-size: 13px;
+  }
+}
+
+/* Font Size */
+
+html {
+  font-size: var(--font-size);
+}

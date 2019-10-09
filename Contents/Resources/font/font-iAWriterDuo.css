@@ -1,0 +1,78 @@
+
+@supports (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 400 700;
+    font-style: normal;
+    src: local("iA Writer Duo");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 400 700;
+    font-style: italic;
+    src: local("iA Writer Duo");
+  }
+
+}
+
+@supports not (font-variation-settings: normal) {
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 400;
+    font-style: normal;
+    src: local("iAWriterDuo-Regular");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 400;
+    font-style: italic;
+    src: local("iAWriterDuo-Italic");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 450;
+    font-style: normal;
+    src: local("iAWriterDuo-Text");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 450;
+    font-style: italic;
+    src: local("iAWriterDuo-TextItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 600;
+    font-style: normal;
+    src: local("iAWriterDuo-Semibold");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 600;
+    font-style: italic;
+    src: local("iAWriterDuo-SemiboldItalic");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 700;
+    font-style: normal;
+    src: local("iAWriterDuo-Bold");
+  }
+
+  @font-face {
+    font-family: "iAWriterDuo";
+    font-weight: 700;
+    font-style: italic;
+    src: local("iAWriterDuo-BoldItalic");
+  }
+
+}
